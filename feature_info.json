@@ -1,0 +1,102 @@
+{
+  "feature_names": [
+    "Age",
+    "Sex",
+    "ChestPainType",
+    "RestingBP",
+    "Cholesterol",
+    "FastingBS",
+    "RestingECG",
+    "MaxHR",
+    "ExerciseAngina",
+    "Oldpeak",
+    "ST_Slope"
+  ],
+  "feature_dtypes": {
+    "Age": "int64",
+    "Sex": "int8",
+    "ChestPainType": "int8",
+    "RestingBP": "int64",
+    "Cholesterol": "int64",
+    "FastingBS": "int64",
+    "RestingECG": "int8",
+    "MaxHR": "int64",
+    "ExerciseAngina": "int8",
+    "Oldpeak": "float64",
+    "ST_Slope": "int8"
+  },
+  "feature_statistics": {
+    "mean": {
+      "Age": 53.510893246187365,
+      "Sex": 0.789760348583878,
+      "ChestPainType": 0.7810457516339869,
+      "RestingBP": 132.39651416122004,
+      "Cholesterol": 198.7995642701525,
+      "FastingBS": 0.23311546840958605,
+      "RestingECG": 0.9891067538126361,
+      "MaxHR": 136.80936819172112,
+      "ExerciseAngina": 0.40413943355119825,
+      "Oldpeak": 0.8873638344226579,
+      "ST_Slope": 1.3616557734204793
+    },
+    "median": {
+      "Age": 54.0,
+      "Sex": 1.0,
+      "ChestPainType": 0.0,
+      "RestingBP": 130.0,
+      "Cholesterol": 223.0,
+      "FastingBS": 0.0,
+      "RestingECG": 1.0,
+      "MaxHR": 138.0,
+      "ExerciseAngina": 0.0,
+      "Oldpeak": 0.6,
+      "ST_Slope": 1.0
+    },
+    "std": {
+      "Age": 9.43261650673201,
+      "Sex": 0.4077008804691498,
+      "ChestPainType": 0.956519383238432,
+      "RestingBP": 18.5141541199078,
+      "Cholesterol": 109.38414455220348,
+      "FastingBS": 0.423045624739303,
+      "RestingECG": 0.6316714317993976,
+      "MaxHR": 25.4603341382503,
+      "ExerciseAngina": 0.49099221882320604,
+      "Oldpeak": 1.0665701510493257,
+      "ST_Slope": 0.6070561850472695
+    },
+    "min": {
+      "Age": 28.0,
+      "Sex": 0.0,
+      "ChestPainType": 0.0,
+      "RestingBP": 0.0,
+      "Cholesterol": 0.0,
+      "FastingBS": 0.0,
+      "RestingECG": 0.0,
+      "MaxHR": 60.0,
+      "ExerciseAngina": 0.0,
+      "Oldpeak": -2.6,
+      "ST_Slope": 0.0
+    },
+    "max": {
+      "Age": 77.0,
+      "Sex": 1.0,
+      "ChestPainType": 3.0,
+      "RestingBP": 200.0,
+      "Cholesterol": 603.0,
+      "FastingBS": 1.0,
+      "RestingECG": 2.0,
+      "MaxHR": 202.0,
+      "ExerciseAngina": 1.0,
+      "Oldpeak": 6.2,
+      "ST_Slope": 2.0
+    }
+  },
+  "categorical_features": [
+    "Sex",
+    "ChestPainType",
+    "RestingECG",
+    "ExerciseAngina",
+    "ST_Slope"
+  ]
+}
