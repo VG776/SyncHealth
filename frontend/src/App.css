@@ -23,6 +23,7 @@ body {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   min-height: 100vh;
   color: #333;
+  overflow-x: hidden;
 }
 
 .app {
@@ -58,7 +59,7 @@ body {
     padding: 1rem;
     gap: 1rem;
   }
-
+}
 
 .nav-logo {
   display: flex;
@@ -182,6 +183,11 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.header-main p {
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
 @media (max-width: 768px) {
   .header {
     padding: 1.5rem 1rem;
@@ -190,11 +196,6 @@ body {
   .header-main h1 {
     font-size: 1.8rem;
   }
-}
-
-.header-main p {
-  font-size: 1.1rem;
-  opacity: 0.95;
 }
 
 .health-tip {
@@ -259,7 +260,6 @@ body {
   .container {
     padding: 1.5rem;
   }
-}
 }
 
 .tab-content {
@@ -1040,6 +1040,11 @@ body {
   color: #999;
   font-size: 0.85rem;
   margin-top: 1rem;
+}
+
+.results-section .metadata {
+  grid-column: 1 / -1;
+  margin-top: 0;
 }
 
 /* ===== ANIMATIONS ===== */
